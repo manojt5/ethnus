@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      td,
+      tr {
+        border: 1px solid black;
+      }
+      .head {
+        text-align: center;
+        font-weight: bold;
+      }
+      
+      th {
+        font-weight: normal;
+        text-align: right;
+        /*background-color: aqua;*/
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <form>
+        <div style="text-align: center; color: blue"><h1>Registration Form</h1></div>
+      <table>
+        <tr>
+          <td class="head">First Name</td>
+          <td><input type="text" name="firstname" /></td>
+        </tr>
+        <tr>
+          <td class="head">Last Name</td>
+          <td><input type="text" name="lastname" /></td>
+        </tr>
+        <tr>
+          <td class="head">Email</td>
+          <td><input type="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td class="head">Password</td>
+          <td><input type="password" name="password" /></td>
+        </tr>
+        <tr>
+          <td class="head">Re-enter Password</td>
+          <td><input type="password" name="reenterpassword" /></td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="head">Gender:</td>
+          <td><input type="radio" name="gender" value="male" />Male</td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="gender" value="female" />Female</td>
+        </tr>
+        <tr>
+          <td class="head">Age:</td>
+          <td><input type="number" name="age" /></td>
+        </tr>
+        <tr>
+          <td class="head">Phone Number</td>
+          <td><input type="tel" name="phonenumber" /></td>
+        </tr>
+        <tr>
+          <td class="head">Address</td>
+          <td><textarea name="address" rows="4" cols="50"></textarea></td>
+        </tr>
+        <tr>
+          <td class="head">State</td>
+          <td><input type="text" name="state" /></td>
+        </tr>
+        <tr>
+          <td class="head">Country</td>
+          <td>
+            <select name="country">
+              <option disabled selected>Choose your country</option>
+              <option value="India">India</option>
+              <option value="USA">USA</option>
+              <option value="UK">UK</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="head">Languages Known</td>
+          <td>
+            <input type="checkbox" name="languages" value="English" />English
+            <input type="checkbox" name="languages" value="Kannada" />Kannada
+            <input type="checkbox" name="languages" value="Hindi" />Hindi
+            <input type="checkbox" name="languages" value="Telugu" />Telugu
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" name="declaration" />Hereby I declare all the
+            given details are true
+          </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;">
+                Log in to <a href="https://ethnus.com/">Ethnus</a> Website
+            </td>
+        </tr>
+        
+        
+        
+      </table>
+      <br />
+      <div style="text-align: center;"><button ><a href="index.html" style="text-decoration: none;color: black;">Register</a></button></div>
+    </form>
+  </body>
+</html>
