@@ -7,11 +7,14 @@
     <style>
       table {
         width: 70%;
-        border-collapse: collapse;
+        /*border-collapse: collapse;*/
+        background-color: #96d4d3;
+        border-radius: 20px;
       }
 
       td {
-        border: 1px solid white;
+        border: 1px solid black;
+        border-radius: 20px;
         text-align: left;
         padding: 10px;
         background-color: #96d4d3;
@@ -19,9 +22,14 @@
 
       th {
         background-color: #96d4d3;
-        border: 1px solid white;
+        border: 1px solid black;
         text-align: center;
         padding: 10px;
+      }
+      th,
+      td,
+      tr {
+        border-radius: 20px;
       }
       div {
         display: flex;
@@ -50,6 +58,8 @@
           <td>Eve</td>
           <td>Jackson</td>
           <td>94</td>
+        </tr>
+        <tr>
           <td>John</td>
           <td>Doe</td>
           <td>80</td>
