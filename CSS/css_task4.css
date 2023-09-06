@@ -1,0 +1,36 @@
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 1s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 10
+     5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #newAbout {
+    top: 80px;
+    background-color: #04AA6D;
+  }
+  
+  #newBlog {
+    top: 140px;
+    background-color: #2196F3;
+  }
+  
+  #newProjects {
+    top: 200px;
+    background-color: #f44336;
+  }
+  
+  #newContact {
+    top: 260px;
+    background-color: #555;
+  }

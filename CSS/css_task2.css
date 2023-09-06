@@ -1,0 +1,56 @@
+#verti{
+    border:1px black solid;
+    width: 240px;
+    height: 192px;
+    margin:30px;
+    padding:10px
+}
+#verti ul{
+    list-style-type: none;
+    width: 200px;
+    background-color:rgb(86 192 192);
+    font-size: large;
+    padding-left: 0px;
+}
+  
+
+#verti li a {
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#verti li a:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+.hori {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 350px;
+}
+
+.hori li {
+    float: left;
+}
+
+.hori li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hori li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.hori .active {
+    background-color: #04AA6D;
+}
